@@ -6,16 +6,31 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+
+  /* #region  /**=========== Primary Color =========== */
+  --tw-color-primary-50: 247 249 220;
+  --tw-color-primary-100: 243 246 203;
+  --tw-color-primary-200: 239 243 186;
+  --tw-color-primary-300: 231 237 150;
+  --tw-color-primary-400: 228 234 133;
+  --tw-color-primary-500: 220 228 98;
+  --tw-color-primary-600: 212 222 63;
+  --tw-color-primary-700: 198 209 35;
+  --tw-color-primary-800: 148 157 27;
+  --tw-color-primary-900: 99 105 18;
+  --color-primary-50: rgb(var(--tw-color-primary-50));
+  --color-primary-100: rgb(var(--tw-color-primary-100));
+  --color-primary-200: rgb(var(--tw-color-primary-200));
+  --color-primary-300: rgb(var(--tw-color-primary-300));
+  --color-primary-400: rgb(var(--tw-color-primary-400));
+  --color-primary-500: rgb(var(--tw-color-primary-500));
+  --color-primary-600: rgb(var(--tw-color-primary-600));
+  --color-primary-700: rgb(var(--tw-color-primary-700));
+  --color-primary-800: rgb(var(--tw-color-primary-800));
+  --color-primary-900: rgb(var(--tw-color-primary-900));
+  /* #endregion  /**======== Primary Color =========== */
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-
-  background-attachment: fixed;
+  @apply bg-brand-olivine text-brand-violet;
 }
