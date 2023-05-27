@@ -12,7 +12,16 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        brand: {
+          vanilla: '#E9EB9E',
+          olivine: '#ACC196',
+          cadet: '#799496',
+          violet: '#49475B',
+          licorice: '#14080E',
+        },
+      },
     },
   },
   plugins: [],
-}
+};
